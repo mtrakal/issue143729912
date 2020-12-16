@@ -6,21 +6,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/vIncludedLayoutContainer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    <include
+        android:id="@+id/lIncludedLayoutContainer"
+        layout="@layout/l_included_layout_container" />
 
-        <TextView
-            android:id="@+id/vIncludedLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/vIncludedMerge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+<!--    <include-->
+<!--        android:id="@+id/lIncludedMerge"-->
+<!--        layout="@layout/l_included_merge" />-->
 
 </LinearLayout>

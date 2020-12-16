@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.vIncludedLayout.text = "Included layout"
-        binding.vIncludedMerge.text = "Included merge"
+        binding.lIncludedLayoutContainer.vIncludedLayout.text = "Included layout"
+//        binding.lIncludedMerge.vIncludedMerge.text = "Included merge"
     }
 }
