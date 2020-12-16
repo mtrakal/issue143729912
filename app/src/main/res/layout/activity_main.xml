@@ -10,8 +10,8 @@
         android:id="@+id/lIncludedLayoutContainer"
         layout="@layout/l_included_layout_container" />
 
-<!--    <include-->
-<!--        android:id="@+id/lIncludedMerge"-->
-<!--        layout="@layout/l_included_merge" />-->
+    <include
+        android:id="@+id/lIncludedMerge"
+        layout="@layout/l_included_merge" />
 
 </LinearLayout>

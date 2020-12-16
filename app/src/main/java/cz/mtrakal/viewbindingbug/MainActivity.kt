@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.lIncludedLayoutContainer.vIncludedLayout.text = "Included layout"
-//        binding.lIncludedMerge.vIncludedMerge.text = "Included merge"
+        binding.lIncludedMerge.vIncludedMerge.text = "Included merge"
     }
 }
